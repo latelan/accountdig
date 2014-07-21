@@ -6,5 +6,5 @@
 file=$1
 while read line
 do
-	sh zhongwen_to_pinying.sh $line
+	sh zhongwen_to_pinyin.sh $line
 done < $file
