@@ -2,9 +2,9 @@
 #this shell imitate web browser request dsetination site for automatic landing page of dial-up 
 #$1 is the first parameter stand for username,$2 is the second parameter stand for user passwd
 #how to use: ./auto.sh "user" "userpwd"
+
 user=$1
 userpwd=$2
-rm -fr cookie*
 request_url=http://222.24.19.190:8080/portal/index_default.jsp
 logurl=http://222.24.19.190:8080/portal
 post_info="userName=$user&userPwd=$userpwd"
