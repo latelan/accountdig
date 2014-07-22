@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#this shell imitate web browser request dsetination site for automatic landing page of dial-up 
 namelist=`cat name.txt`
 for name in $namelist
 do
